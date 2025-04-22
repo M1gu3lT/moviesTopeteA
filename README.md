@@ -23,7 +23,8 @@ Desarrollar una plataforma intuitiva que permita a los usuarios explorar conteni
 
 ## 📸 Captura de pantalla del proyecto
 
-> ⚠️ *Pendiente de agregar una imagen del proyecto en funcionamiento. Puedes subir tu captura y reemplazar el ejemplo abajo cuando esté lista.*
+![Evidencia2](login-captura.jpg)
+![Evidencia3](home-captura.jpg)
 
 ```html
 <!-- Ejemplo:
