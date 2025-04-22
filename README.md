@@ -1,60 +1,144 @@
-# ENTRETENIMIENTOTOPETE
+# 🎬 MoviesTopete
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+## 📌 Descripción
+**MoviesTopete** es una aplicación web diseñada para gestionar películas, con una interfaz intuitiva y eficiente. Permite a los usuarios:
 
-## Development server
+- Iniciar sesión en la plataforma.
+- Visualizar estrenos.
+- Explorar películas por género.
+- Administrar una lista de películas favoritas.
 
-To start a local development server, run:
+La app es **completamente responsiva**, optimizada para pantallas de todos los tamaños, garantizando una experiencia fluida tanto en dispositivos móviles como de escritorio.
 
-```bash
+## 🎯 Objetivo
+Desarrollar una plataforma intuitiva que permita a los usuarios explorar contenido audiovisual y administrar su lista personalizada de películas favoritas.
+
+---
+
+## 👤 Nombre del desarrollador
+
+**Miguel Topete**
+
+---
+
+## 📸 Captura de pantalla del proyecto
+
+> ⚠️ *Pendiente de agregar una imagen del proyecto en funcionamiento. Puedes subir tu captura y reemplazar el ejemplo abajo cuando esté lista.*
+
+```html
+<!-- Ejemplo:
+![Vista principal](./screenshots/home-page.png)
+-->
+🧪 Instrucciones de instalación y ejecución
+Clona este repositorio:
+
+bash
+Copiar
+Editar
+git clone https://github.com/M1gu3lT/MoviesTopete.git
+Accede a la carpeta del proyecto:
+
+bash
+Copiar
+Editar
+cd MoviesTopete
+Instala las dependencias:
+
+bash
+Copiar
+Editar
+npm install
+Inicia el servidor de desarrollo:
+
+bash
+Copiar
+Editar
 ng serve
-```
+Abre tu navegador y accede a: http://localhost:4200
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+📦 Dependencias y tecnologías utilizadas
+La aplicación fue desarrollada utilizando las siguientes herramientas y bibliotecas:
 
-## Code scaffolding
+Angular ^17.0.0 o superior (desarrollado en Angular 19)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Node.js >= 18.x
 
-```bash
-ng generate component component-name
-```
+Bootstrap ^5.3.0
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+RxJS ^7.8.1
 
-```bash
-ng generate --help
-```
+TypeScript >= 5.x
 
-## Building
+Asegúrate de tener instalada la última versión de Angular CLI:
 
-To build the project run:
+bash
+Copiar
+Editar
+npm install -g @angular/cli
+⚙️ ¿Cómo se construyó?
+El desarrollo de MoviesTopete partió como un proyecto hecho con JavaScript vanilla, el cual fue migrado de manera progresiva a Angular 19. Esta transición permitió estructurar mejor la aplicación, modularizar los componentes y aprovechar las ventajas del ecosistema moderno de Angular.
 
-```bash
-ng build
-```
+La migración se centró en:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Reorganizar el proyecto usando componentes standalone.
 
-## Running unit tests
+Integrar Bootstrap 5 para una interfaz responsiva desde el inicio.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Crear una arquitectura más limpia y mantenible para escalar fácilmente.
 
-```bash
-ng test
-```
+Actualmente, el proyecto se encuentra en proceso de:
 
-## Running end-to-end tests
+Integración con una base de datos para manejar información dinámica.
 
-For end-to-end (e2e) testing, run:
+Mejora del diseño visual con una estética más pulida y profesional.
 
-```bash
-ng e2e
-```
+Optimización del rendimiento y la experiencia de usuario (UX).
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Todo el código está orientado a facilitar futuras mejoras y nuevas funcionalidades.
 
-## Additional Resources
+🐛 Problemas conocidos
+Actualmente la aplicación presenta algunos detalles pendientes por solucionar:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# moviesTopeteA
+❌ Navbar desestructurada: Los elementos dentro de la barra de navegación no están alineados correctamente, especialmente en pantallas pequeñas.
+
+🖼️ Problemas con carga de imágenes: Las imágenes de las películas no se visualizan correctamente en las tarjetas.
+
+📐 Cards desalineadas: Las tarjetas de películas no mantienen una estructura uniforme en la cuadrícula, lo que afecta la estética general de la interfaz.
+
+Estos problemas están en proceso de revisión y forman parte del roadmap de mejoras para futuras versiones.
+
+🔄 Retrospectiva
+✅ ¿Qué hice bien?
+Migré una app hecha en JavaScript vanilla a Angular 19, reorganizando la estructura y aprovechando el poder de los componentes standalone.
+
+Se logró construir una interfaz funcional, responsiva y modularizada.
+
+El proyecto se mantiene limpio, bien dividido y preparado para futuras integraciones como base de datos y mejoras visuales.
+
+❌ ¿Qué no salió bien?
+La alineación de los elementos (navbar y cards) aún presenta errores visuales importantes.
+
+Las imágenes no se están cargando como se espera.
+
+Algunos componentes clave no están funcionando al 100%, como los botones de las cards o el sistema de navegación.
+
+💡 ¿Qué puedo hacer diferente?
+Ajustar el uso de Bootstrap y Angular para garantizar un layout más consistente.
+
+Validar rutas y paths de recursos como imágenes para evitar errores de carga.
+
+Refinar la lógica de componentes para mejorar la experiencia de usuario (como ocultar cards o navegar correctamente).
+
+Incluir pruebas visuales y de usabilidad desde etapas más tempranas del desarrollo.
+
+📄 Licencia
+Este proyecto está bajo la Licencia MIT.
+
+go
+Copiar
+Editar
+
+Puedes copiar y pegar este texto en un archivo llamado `README.md` para tu repositorio. Si necesitas alguna modificación, solo avísame. 😊
+
+
+
