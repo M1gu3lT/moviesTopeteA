@@ -26,10 +26,7 @@ Desarrollar una plataforma intuitiva que permita a los usuarios explorar conteni
 ![Evidencia2](login-captura.jpg)
 ![Evidencia3](home-captura.jpg)
 
-```html
-<!-- Ejemplo:
-![Vista principal](./screenshots/home-page.png)
--->
+
 🧪 Instrucciones de instalación y ejecución
 Clona este repositorio:
 
