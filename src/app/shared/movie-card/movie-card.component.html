@@ -1,5 +1,5 @@
 <div class="card h-100 shadow-sm" style="background-color: #ffffff;">
-  <img [src]="pelicula.imagen" class="card-img-top" [alt]="pelicula.titulo" />
+  <img [src]="pelicula?.imagen" [alt]="pelicula?.titulo" class="card-img-top" />
   <div class="card-body">
     <h5 class="card-title">{{ pelicula.titulo }}</h5>
     <p class="card-text">{{ pelicula.descripcion }}</p>
@@ -10,3 +10,4 @@
     </div>
   </div>
 </div>
+

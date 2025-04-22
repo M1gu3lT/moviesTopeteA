@@ -7,6 +7,7 @@
   width: 25%;
   margin: 10px;
   transition: transform 0.2s ease-in-out;
+  margin-top: 80px;
 
   &:hover {
     transform: translateY(-5px);
@@ -24,13 +25,15 @@
     padding: 1rem;
 
     .card-title {
-      font-size: 1.25rem;
+      font-family: monospace;
+      font-size: 2rem;
       font-weight: bold;
       margin-bottom: 0.5rem;
     }
 
     .card-text {
-      font-size: 0.95rem;
+      font-size: 1.2rem;
+      font-weight: bold;
       color: #555;
     }
 
@@ -44,14 +47,14 @@
     }
 
     .ver{
-      background-color: rgb(39, 39, 189);
+      background-color: rgba(126, 133, 40, 0.726);
     }
 
     .ocultar{
-      background-color: rgba(255, 0, 0, 0.726);
+      background-color: rgba(70, 52, 52, 0.726);
     }
     .favorita{
-      background-color: yellow;
+      background-color: rgba(128, 49, 95, 0.726);
     }
   }
 }
@@ -62,4 +65,18 @@
 
 .card:hover{
   transform: scale(1.02);
+}
+
+
+@media (max-width: 768px) {
+  .card{background-color: #ffffff; 
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 80%;
+  margin: 10px;
+  transition: transform 0.2s ease-in-out;
+  margin-top: 80px;}
+  
 }
