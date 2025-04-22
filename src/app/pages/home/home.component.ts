@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MovieCardComponent } from '../../shared/movie-card/movie-card.component';
 import { NavbarComponent } from '../../shared/navbar/navbar.component';
+import { FooterComponent } from "../../shared/footer/footer.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, MovieCardComponent, NavbarComponent],
+  imports: [CommonModule, MovieCardComponent, NavbarComponent, FooterComponent],
   templateUrl: './home.component.html'
 })
 export class HomeComponent implements OnInit {

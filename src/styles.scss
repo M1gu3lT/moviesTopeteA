@@ -4,6 +4,10 @@ body {
   background-image: url('assets/logo/MovieLogo.jpg'); 
   background-size: 20%; 
   background-position: center; 
+  height: 100%; /* Asegura que el body y el html ocupen el 100% de la altura */
+  margin: 0; /* Elimina márgenes por defecto */
+  display: flex; /* Usamos flexbox */
+  flex-direction: column; /* Organizamos los elementos de manera vertical */
 }
 
 /* Estilos para los inputs */
@@ -26,4 +30,3 @@ p {
   color: rgb(2, 20, 20);
 }
 
-/* Evitar que body afecte a los formularios */
