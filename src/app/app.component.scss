@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Organiza las secciones en una columna */
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: flex-end; /* Alinea todas las secciones a la derecha */
+    padding: 20px;
+  }
+  
+  .section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 100%; /* Se ajusta al ancho disponible */
+    max-width: 600px; /* Establece un ancho máximo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  

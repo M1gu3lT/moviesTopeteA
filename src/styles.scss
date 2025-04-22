@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: rgb(26, 23, 23);
+  background-image: url('assets/logo/MovieLogo.jpg'); 
+  background-size: 20%; 
+  background-position: center; 
+}
+
+/* Estilos para los inputs */
+.inputsUser {
+  width: 100%;
+  padding: 1rem; /* Padding más grande */
+  font-size: 1rem; /* Aumenta el tamaño del texto */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #fdf6e3; /* Fondo claro para inputs */
+}
+
+/* Estilo para la clase loginRecordar */
+.loginRecordar {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Otros estilos globales (si es necesario) */
+p {
+  color: rgb(2, 20, 20);
+}
+
+/* Evitar que body afecte a los formularios */

@@ -1,0 +1,12 @@
+<div class="card h-100 shadow-sm" style="background-color: #ffffff;">
+  <img [src]="pelicula.imagen" class="card-img-top" [alt]="pelicula.titulo" />
+  <div class="card-body">
+    <h5 class="card-title">{{ pelicula.titulo }}</h5>
+    <p class="card-text">{{ pelicula.descripcion }}</p>
+    <div class="d-flex justify-content-between">
+      <button class="btn btn-primary btn-sm ver">Ver</button>
+      <button class="btn btn-danger btn-sm ocultar">Ocultar</button>
+      <button class="btn btn-danger btn-sm favorita">favirita</button>
+    </div>
+  </div>
+</div>

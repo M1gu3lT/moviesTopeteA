@@ -1,0 +1,62 @@
+.fullscreen-wrapper { //lo que abarca el cuadro naranja
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 50px;
+    font-family: monospace;
+  }
+  
+  /* usar en caso de poner de nuevo el logo
+  .LogoLogin {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 20px; 
+  }
+    */
+  
+  h3 {//texto iniciar secion
+    font-size: 4rem; 
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px; 
+  }
+  
+  .form-group label {
+    font-size: 4rem; // Aumentar el tamaño de las etiquetas 
+    color: #333;
+  }
+  
+  .inputsUser {
+    width: 80%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #fdf6e3; 
+  }
+  
+  .form-check {//la cajita de verificacion
+    font-size: 2rem; 
+  }
+  
+  .btn {
+    font-size: 1.1rem;
+    padding: 0.8rem; 
+    border-radius: 5px; 
+  }
+  
+  .loginRecordar {
+    font-size: 20px;
+    color: #333;
+  }
+
+  a:hover{
+    color: yellow;
+  }
+  a{
+    font-size: 20px;
+  }
+
+  
